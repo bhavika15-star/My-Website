@@ -1,0 +1,291 @@
+
+body{
+  background-image: url(https://bestanimations.com/media/computers/271184737funny-computer-matrix-animated-gif-42.gif#.YKvkY76Gafo.link);
+}
+.text1{
+  color: #fff;
+  text-align: center;
+  margin-top: 20rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5rem;
+}
+#testimonials{
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 26px;
+  margin-top: 300px;
+}
+#skills{
+  align-items: center;
+  padding: 7% 15%;
+  background-color: black;
+}
+.a{
+    text-align: center;
+}
+
+.progress{
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+.s{
+  margin-left: 10%;
+}
+.html{
+  width: 25%;
+  height: 15%;
+  float: left;
+  margin-right: 30px;
+}
+.python{
+  width: 25%;
+  height: 15%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.i{
+  width: 25%;
+  height: 15%;
+  float: left;
+  margin-right: 30px;
+}
+.css{
+  width: 25%;
+  height: 15%;
+  float: right;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.js{
+  width: 25%;
+  height: 15%;
+  float: left;
+  margin-right: 30px;
+}
+.git{
+  width: 25%;
+  height: 15%;
+  float: right;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.c{
+  width: 25%;
+  height: 15%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  color: #fff;
+}
+h1{
+  color: #df2356;
+  font-family: 'Rubik', sans-serif;
+  font-size: 55px;
+}
+
+.carousel-item{
+  padding: 7% 23%;
+}
+.items{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  color: black;
+}
+.dance{
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin-right: 30px;
+}
+.music{
+  width: 200px;
+  height: 150px;
+  float: right;
+  margin-left: 30px;
+}
+.sports{
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin-right: 30px;
+}
+.food{
+  width: 200px;
+  height: 150px;
+  float: right;
+  margin-left: 30px;
+}
+#projects{
+  display: grid;
+  background-color: #EFECDA;
+  padding: 100px;
+}
+.card-body{
+  background-color: black;
+  opacity: 0.87;
+}
+.card-title{
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+}
+.card-text{
+  color: #fff;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+.project{
+  padding: 3% 2%;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #fff,#fff);
+  background-image: -moz-linear-gradient(top, #fff,#fff);
+  background-image: -ms-linear-gradient(top, #fff,#fff);
+  background-image: -o-linear-gradient(top,#fff,#fff);
+  background-image: linear-gradient(to bottom,#fff,#fff);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Rubik', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top,#000,#000 );
+  background-image: -moz-linear-gradient(top,#000,#000 );
+  background-image: -ms-linear-gradient(top,#000,#000 );
+  background-image: -o-linear-gradient(top,#000,#000 );
+  background-image: linear-gradient(to bottom,#000,#000 );
+  text-decoration: none;
+}
+#contacts{
+  text-align: center; 
+  background-color: #202020;
+  color:beige;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.social-media-list {
+  position: relative;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 100%;
+}
+.social-media-list li:hover a {
+  color: pink;
+}
+.social-media-list li a {
+  color: #fff;
+} 
+.social-media-list li { 
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin: 50px auto;
+  color: #fff;
+}
+.copyright {
+  font: 200 14px;
+  color: #555;
+  text-align: center;
+  padding-top: 80px;
+}
+.contact-message{
+  font-family: 'Rubik', sans-serif;
+}
+.w{
+  font-family:'Rubik', sans-serif ;
+}
+  @media only screen and (max-width:600px) {
+    .img{
+      margin-top: 40vw;
+    }
+    .text1 {
+        margin-top: 60vw;
+        font-size: 1.5rem;
+    }
+  #testimonials{
+    margin-top: 380px;
+  }
+  .carousel-item{
+    padding: 7% 7%;
+  }
+  #skills {
+    padding: 7% 5%;
+  }
+  .skill-row {
+    margin: 150px auto 150px auto;
+  }
+  .git {
+    width: 25%;
+    height: 15%;
+    float: right;
+    margin-left: 30px;
+  }
+  .css {
+    width: 25%;
+    height: 15%;
+    float: right;
+    margin-left: 30px;
+  }
+  .python {
+    width: 30%;
+    height: 15%;
+    float: right;
+    margin-left: 30px;
+}
+.contact-message{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+  }
+@media only screen and (min-width:600px) {
+  .img{
+    margin-top: 30vw;
+  }
+  .text1 {
+      margin-top: 50vw;
+      font-size: 2rem;
+  }
+  .contact-message{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media only screen and (min-width:768px) {
+  .img{
+    margin-top: 5vw;
+  }
+  .text1 {
+      margin-top: 25vw;
+  }
+}
+@media only screen and (min-width:992px) {
+  .text1 {
+      margin-top: 27vw;
+  }
+}
+@media only screen and (min-width:1200px) {
+  .text1 {
+      margin-top: 29vw;
+  }
+}
+
+
+
+
+
+
