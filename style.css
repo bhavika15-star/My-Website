@@ -297,8 +297,8 @@ h1{
 }
 @media only screen and (max-width:410px) {
   .img{
-    height: 65vw;
-    width: 100vw;
+    height: 70vw;
+    width: 120vw;
   }
   .card{
   align-items: center;
