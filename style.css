@@ -145,6 +145,10 @@ h1{
 .project{
   padding: 3% 2%;
 }
+.card{
+  align-items: center;
+  justify-content: center;
+}
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #fff,#fff);
