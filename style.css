@@ -218,12 +218,12 @@ h1{
   font-family:'Rubik', sans-serif ;
 }
   @media only screen and (max-width:600px) {
-    .img{
+  .img{
       margin-top: 20vw;
-      height:380px;
-      width:600px;
+      height: 60vw;
+      width: 100vw;
     }
-    .text1 {
+   .text1 {
         margin-top: 50vw;
         font-size: 1.5rem;
     }
@@ -264,7 +264,9 @@ h1{
   }
 @media only screen and (min-width:600px) {
   .img{
-    margin-top: 30vw;
+    margin-top: 20vw;
+    height: 60vw;
+    width: 100vw;
   }
   .text1 {
       margin-top: 50vw;
@@ -280,29 +282,24 @@ h1{
     margin-top: 5vw;
   }
   .text1 {
-      margin-top: 25vw;
+      margin-top: 35vw;
   }
 }
 @media only screen and (min-width:992px) {
   .text1 {
-      margin-top: 27vw;
+      margin-top: 40vw;
   }
 }
 @media only screen and (min-width:1200px) {
   .text1 {
-      margin-top: 29vw;
+      margin-top: 40vw;
   }
 }
 @media only screen and (max-width:410px) {
   .img{
-      margin-top: 20vw;
-      height:350px;
-      width:580px;
-    }
-    .text1 {
-        margin-top: 45vw;
-        font-size: 1.5rem;
-    }
+    height: 65vw;
+    width: 100vw;
+  }
   .card{
   align-items: center;
   justify-content: center;
