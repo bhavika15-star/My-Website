@@ -291,6 +291,10 @@ h1{
   }
 }
 @media only screen and (min-width:1200px) {
+  .img{
+    height:360px;
+    width:450px;
+  }
   .text1 {
       margin-top: 40vw;
   }
