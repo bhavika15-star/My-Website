@@ -2,6 +2,10 @@
 body{
   background-image: url(https://bestanimations.com/media/computers/271184737funny-computer-matrix-animated-gif-42.gif#.YKvkY76Gafo.link);
 }
+.img{
+  height:40vw;
+  width:70vw;
+}
 .text1{
   color: #fff;
   text-align: center;
@@ -215,10 +219,12 @@ h1{
 }
   @media only screen and (max-width:600px) {
     .img{
-      margin-top: 40vw;
+      margin-top: 20vw;
+      height:380px;
+      width:600px;
     }
     .text1 {
-        margin-top: 60vw;
+        margin-top: 50vw;
         font-size: 1.5rem;
     }
   #testimonials{
@@ -288,6 +294,15 @@ h1{
   }
 }
 @media only screen and (max-width:410px) {
+  .img{
+      margin-top: 20vw;
+      height:350px;
+      width:580px;
+    }
+    .text1 {
+        margin-top: 45vw;
+        font-size: 1.5rem;
+    }
   .card{
   align-items: center;
   justify-content: center;
