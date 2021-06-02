@@ -2,16 +2,32 @@
 body{
   background-image: url(https://bestanimations.com/media/computers/271184737funny-computer-matrix-animated-gif-42.gif#.YKvkY76Gafo.link);
 }
-.img{
-  height:20vw;
-  width:50vw;
+
+#ww {
+  padding-top: 200px;
+  max-width: 100%;
+  height: auto;
 }
-.text1{
+.centered{
+  text-align: center;
+}
+.col-lg-8{
+   position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.row {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+h2{
   color: #fff;
   text-align: center;
-  margin-top: 20rem;
   font-family: 'Rubik', sans-serif;
-  font-size: 2.5rem;
+}
+h4{
+  color: #fff;
 }
 #testimonials{
   text-align: center;
@@ -217,99 +233,73 @@ h1{
 .w{
   font-family:'Rubik', sans-serif ;
 }
-  @media only screen and (max-width:600px) {
-  .img{
-      margin-top: 20vw;
-      height: 60vw;
-      width: 100vw;
-    }
-   .text1 {
-        margin-top: 50vw;
-        font-size: 1.5rem;
-    }
-  #testimonials{
-    margin-top: 380px;
+@media only screen and (max-width:600px) {
+  .text1 {
+      margin-top: 60vw;
+      font-size: 1.5rem;
   }
-  .carousel-item{
-    padding: 7% 7%;
-  }
-  #skills {
-    padding: 7% 5%;
-  }
-  .skill-row {
-    margin: 150px auto 150px auto;
-  }
-  .git {
-    width: 25%;
-    height: 15%;
-    float: right;
-    margin-left: 30px;
-  }
-  .css {
-    width: 25%;
-    height: 15%;
-    float: right;
-    margin-left: 30px;
-  }
-  .python {
-    width: 30%;
-    height: 15%;
-    float: right;
-    margin-left: 30px;
+#testimonials{
+  margin-top: 380px;
 }
+.carousel-item{
+  padding: 7% 7%;
+}
+#skills {
+  padding: 7% 5%;
+}
+.skill-row {
+  margin: 150px auto 150px auto;
+}
+.git {
+  width: 25%;
+  height: 15%;
+  float: right;
+  margin-left: 30px;
+}
+.css {
+  width: 25%;
+  height: 15%;
+  float: right;
+  margin-left: 30px;
+}
+.python {
+  width: 30%;
+  height: 15%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-message{
+padding-left: 5%;
+padding-right: 5%;
+}
+}
+@media only screen and (min-width:600px) {
 .contact-message{
   padding-left: 5%;
   padding-right: 5%;
 }
-  }
-@media only screen and (min-width:600px) {
-  .img{
-    margin-top: 20vw;
-    height: 60vw;
-    width: 100vw;
-  }
-  .text1 {
-      margin-top: 50vw;
-      font-size: 2rem;
-  }
-  .contact-message{
-    padding-left: 5%;
-    padding-right: 5%;
-  }
 }
-@media only screen and (min-width:768px) {
-  .img{
-    margin-top: 5vw;
-  }
-  .text1 {
-      margin-top: 35vw;
-  }
-}
+
 @media only screen and (min-width:992px) {
-  .text1 {
-      margin-top: 40vw;
-  }
+#ww{
+    padding-left: 25vw;
 }
-@media only screen and (min-width:1200px) {
-  .img{
-    height:360px;
-    width:450px;
-  }
-  .text1 {
-      margin-top: 40vw;
-  }
 }
+
 @media only screen and (max-width:410px) {
- 
-  .card{
-  align-items: center;
-  justify-content: center;
-}
   #projects{
-  display: grid;
-  background-color: #EFECDA;
   padding: 1vw;
 }
+}
+@media only screen and (max-width:330px) {
+  #projects{
+    padding: 1vw;
+  }
+}
+@media only screen and (max-width:320px) {
+  #projects{
+    padding: 1vw;
+  }
 }
 
 
